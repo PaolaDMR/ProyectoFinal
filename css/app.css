@@ -7,8 +7,8 @@
 /** Productos */
 
 /* Estilos generales */
+
 body {
-    font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
 }
@@ -30,27 +30,189 @@ header {
 /* Cambiar el color del h1 a negro */
 h1 {
     color: #037BC0;
+    font-family: 'Playfair Display', sans-serif ;
+    font-size:23px;
+    font-weight: 700;
+}
+
+span{
+    color:black;
+    font-size:23px;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Playfair Display', sans-serif ;
+    color:black;
+    font-size:23px;
+    font-weight: 700;
+}
+
+.textCategoria {
+    font-family: 'Playfair Display', serif ;
+    color: black;
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.textProduct {
+    font-family: 'Playfair Display', serif ;
+    font-size: 20px;
+}
+
+.Price {
+    font-family: 'Arial', serif;
+    font-weight: 700;
+    font-size:20px;
+}
+
+.titleFooter {
+    font-family: 'Playfair Display', serif ;
+    color:black;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.textFinal {
+    color:black;
+    font-size: 13px;
 }
 
 .Hero {
-    background-color: #8a8e92; 
-    height: 150px; 
+    height: 300px; 
     width: 100%; 
     text-align: center;
 }
 
-.Hero div {
-    color: #bebebe; /* Cambia el color del texto según sea necesario */
-    font-size: 24px; /* Cambia el tamaño del texto según sea necesario */
-    padding: 35px; /* Espacio alrededor del texto */
+.Hero img{
+    width:100%;
+    height:100%;
 }
 
-.col-6 img {
+.product1 img {
+    max-width:100%;
+    height:100%;
+}
+
+.productImg img {
     max-width:100%;
     height:100%;
 }
 
 
+.col-4 {
+    padding:5px;
+}
+
+.col-6 {
+    padding:5px;
+}
+
+.product1Card {
+    height: 100%;
+    width: 100%;
+}
+
+.categoryImg img {
+    height: 100%;
+    width: 100%;
+    border-radius:5px;
+}
+
+
+
+
+/* Teléfonos */
+@media only screen and (max-width: 768px) and (max-width: 991px){
+
+    .Hero {
+        height: 165px; 
+        width: 100%; 
+        text-align: center;
+    }
+
+    .txt {
+        font-size:11px;
+    }
+
+    .Price {
+        font-size:15px;
+    }
+
+    .custom-btn {
+        font-size: 11px;
+        padding: 3px 3px;
+    }
+
+    .textProduct {
+        font-family: 'Playfair Display', serif ;
+        font-size: 16px;
+    }
+
+    .textCategoria {
+        font-family: 'Playfair Display', serif ;
+        color:black;
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    h2 {
+        font-family: 'Playfair Display', sans-serif ;
+        color:black;
+        font-size:17px;
+        font-weight: 700;
+    }
+
+    h1 {
+        color: #037BC0;
+        font-family: 'Playfair Display', sans-serif ;
+        font-size:16px;
+        font-weight: 700;
+    }
+    
+    span{
+        color:black;
+        font-size:16px;
+        font-weight: 700;
+    }
+
+    .txtCategory {
+        font-size:15px;
+    }
+
+    .titleFooter {
+        font-family: 'Playfair Display', serif ;
+        color:black;
+        font-weight: 700;
+        font-size: 13px;
+    }
+
+    .textList{
+        font-size:11px;
+    }
+
+    .textFinal {
+        color:black;
+        font-size: 11px;
+    }
+
+    .txtInicio {
+        font-size:15px;
+    }
+
+    .txtList {
+        font-size:13px;
+    }
+
+    .col-md-6 {
+        padding-bottom:15px;
+    }
+
+    .col-md-4 {
+        padding-bottom:15px;
+    }
+
+}
 
 
 

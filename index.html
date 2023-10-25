@@ -14,73 +14,279 @@
 </head>
 <body>
     <header class="bg-transparent text-center py-4">
-        <div class="container pb-0">
+        <div class="container pb-0 pt-0">
             <div class="row">
                 <div class="col-12">
-                    <h1>Tienda de Muebles</h1>
-                </div>
-                <div class="col-12">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <div class="container-fluid">
-                          <a class="navbar-brand" href="#">Inicio</a>
-                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                          </button>
-                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                              <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#">Tienda</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#">Blog</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#">Galeria</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#">Contacto</a>
-                              </li>
-                          </div>
-                        </div>
-                      </nav>
+                    <h1><span>Tienda de </span> Muebles</h1>
                 </div>
             </div>
         </div>
-        <div class="container Hero">
-            <div>
-                hero image 
+        <div class="container py-0 px-0">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand txtInicio" href="">Inicio</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarInicio" aria-controls="navbarInicio" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarInicio">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link txtList active" aria-current="page" href="">Nosotros</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link txtList" href="">Tienda</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link txtList" href="">Blog</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link txtList" href="">Galeria</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link txtList" href="">Contacto</a>
+                          </li>
+                      </div>
+                    </div>
+                  </nav>
             </div>
+        </div>
+        <div class="container Hero bg-transparent py-0 px-0">
+             <img src="img/principal.jpg" alt="" >
         </div>
     </header>
     <main>
         <div class="container pt-0">
             <div class="row">
-                <h2 class="col-12 text-center pb-4">
+                <h2 class="col-12 text-center">
                     Nuestros Productos
                 </h2>
             </div>
-            <div class="row pt-0 bg-danger">
-                <div class="col-6 pl-0">
-                    <img src="img/producto1.jpg" alt="" class="px-0">
+        </div>
+        <div class="container pt-0 pb-0 px-3">
+            <div class="card mb-2">
+                <div class="row g-0">
+                    <div class="col-md-7 product1 px-0">
+                        <img src="img/producto1.jpg" class="img-fluid rounded-start" alt="" >
+                    </div>
+                    <div class="col-md-5 bg-primary">
+                        <div class="card-body pb-0">
+                            <h5 class="card-title">
+                                <div class="col-12 textProduct text-center text-white pt-2">
+                                Producto 1
+                                </div>
+                            </h5>
+                            <p class="card-text">
+                            <div class="txt col-12 text-white text-center pt-2">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores aperiam dolor natus tempora architecto cupiditate quae, amet quos, assumenda laudantium, et sunt illum animi? Dolor quibusdam dolores praesentium alias unde?
+                            </div>
+                            <div class="col-12 Price text-white text-center pt-2">
+                                $12,000.00
+                            </div>
+                            <div class="col-12 text-center pt-2">
+                                <button type="button" class="btn btn-success custom-btn">
+                                    Agregar al carrito
+                                </button>
+                            </div>
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-6 bg-primary">
-                    <div class="row">
-                        <div class="col-12 text-white text-center pt-2">
-                            Producto 1
+            </div>
+        </div>
+        <div class="container px-3 py-0">
+            <div class="row pt-2">
+                <div class="col-md-6">
+                    <div class="card pr-0">
+                        <div class="col-12 productImg px-0">
+                            <img src="img/producto2.jpg" alt="">
                         </div>
-                        <div class="col-12 text-white text-center pt-2">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores aperiam dolor natus tempora architecto cupiditate quae, amet quos, assumenda laudantium, et sunt illum animi? Dolor quibusdam dolores praesentium alias unde?
+                        <div class="card-body bg-primary">
+                            <h5 class="card-title">
+                                <div class="textProduct text-center text-white">
+                                    Producto 2
+                                </div>
+                            </h5>
+                            <p class="card-text">
+                                <div class="txt text-center text-white">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente laboriosam libero exercitationem maiores ratione molestias voluptatibus.
+                                </div>
+                                <div class="Price text-center text-white pt-2">
+                                    $12,000.00
+                                </div>
+                            </p>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-success custom-btn">
+                                    Agregar al carrito
+                                </button>
+                            </div>
                         </div>
-                        <div class="col-12 text-white text-center pt-2">
-                            $12,000.00
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card px-0">
+                        <div class="col-12 productImg px-0">
+                            <img src="img/producto3.jpg" alt="">
                         </div>
-                        <div class="col-12 text-center pt-2">
-                            <button type="button" class="btn btn-success">
-                                Agregar al carrito
-                            </button>
+                        <div class="card-body bg-primary">
+                            <h5 class="card-title">
+                                <div class="col-12 textProduct text-center text-white">
+                                    Producto 3
+                                </div>
+                            </h5>
+                            <p class="card-text">
+                                <div class="txt col-12 text-center text-white">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente laboriosam libero exercitationem maiores ratione molestias voluptatibus.
+                                </div>
+                                <div class="col-12 Price text-center text-white pt-2">
+                                    $12,000.00
+                                </div>
+                            </p>
+                            <div class="col-12 text-center">
+                                <button type="button" class="btn btn-success custom-btn">
+                                    Agregar al carrito
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container px-3 py-0">
+            <div class="row pt-2">
+                <div class="col-md-4">
+                    <div class="card px-0">
+                        <div class="col-12 productImg px-0">
+                            <img src="img/producto4.jpg" alt="">
+                        </div>
+                        <div class="card-body bg-primary">
+                            <h5 class="card-title">
+                                <div class="col-12 textProduct text-center text-white">
+                                    Producto 4
+                                </div>
+                            </h5>
+                            <p class="card-text">
+                                <div class="txt col-12 text-center text-white">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente laboriosam libero exercitationem maiores ratione molestias voluptatibus.
+                                </div>
+                                <div class="col-12 Price text-center text-white pt-2">
+                                    $12,000.00
+                                </div>
+                            </p>
+                            <div class="col-12 text-center">
+                                <button type="button" class="btn btn-success custom-btn">
+                                    Agregar al carrito
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card px-0">
+                        <div class="col-12 productImg px-0">
+                            <img src="img/producto5.jpg" alt="">
+                        </div>
+                        <div class="card-body bg-primary">
+                            <h5 class="card-title">
+                                <div class="col-12 textProduct text-center text-white">
+                                    Producto 5
+                                </div>
+                            </h5>
+                            <p class="card-text">
+                                <div class="txt col-12 text-center text-white">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente laboriosam libero exercitationem maiores ratione molestias voluptatibus.
+                                </div>
+                                <div class="col-12 Price text-center text-white pt-2">
+                                    $12,000.00
+                                </div>
+                            </p>
+                            <div class="col-12 text-center">
+                                <button type="button" class="btn btn-success custom-btn">
+                                    Agregar al carrito
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card px-0">
+                        <div class="col-12 productImg px-0">
+                            <img src="img/producto6.jpg" alt="">
+                        </div>
+                        <div class="card-body bg-primary">
+                            <h5 class="card-title">
+                                <div class="col-12 textProduct text-center text-white">
+                                    Producto 6
+                                </div>
+                            </h5>
+                            <p class="card-text">
+                                <div class="txt col-12 text-center text-white">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente laboriosam libero exercitationem maiores ratione molestias voluptatibus.
+                                </div>
+                                <div class="col-12 Price text-center text-white pt-2">
+                                    $12,000.00
+                                </div>
+                            </p>
+                            <div class="col-12 text-center">
+                                <button type="button" class="btn btn-success custom-btn">
+                                    Agregar al carrito
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container pb-1">
+            <div class="row">
+                <h2 class="col-12 textCategoria text-center">
+                    Categorías de Productos
+                </h2>
+            </div>
+        </div>
+
+        <div class="container px-3 py-0">
+            <div class="row pt-2">
+                <div class="col-4">
+                    <div class="card px-0 border-0 bg-transparent">
+                        <div class="col-12 categoryImg px-0">
+                            <img src="img/categoria1.jpg" alt="">
+                        </div>
+                        <div class="card-body pt-2">
+                            <h5 class="card-title">
+                                <div class="txtCategory col-12 text-center">
+                                    Oficina
+                                </div>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card px-0 border-0 bg-transparent">
+                        <div class="col-12 categoryImg px-0">
+                            <img src="img/categoria2.jpg" alt="">
+                        </div>
+                        <div class="card-body pt-2">
+                            <h5 class="card-title">
+                                <div class="txtCategory col-12 text-center">
+                                    Hogar
+                                </div>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card px-0 border-0 bg-transparent">
+                        <div class="col-12 categoryImg px-0">
+                            <img src="img/categoria3.jpg" alt="">
+                        </div>
+                        <div class="card-body pt-2">
+                            <h5 class="card-title">
+                                <div class="txtCategory col-12 text-center">
+                                    Cocina
+                                </div>
+                            </h5>
                         </div>
                     </div>
                 </div>
@@ -88,7 +294,92 @@
         </div>
     </main>
     <footer>
-
+        <div class="container-fluid py-0 px-4">
+            <div class="row px-5">
+                <div class="col-4 text-center px-2">
+                    <a class="navbar-brand titleFooter" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCategorias" aria-controls="navbarCategorias" aria-expanded="false" aria-label="Toggle navigation">
+                        Categorías
+                    </a>
+                    <nav class="navbar navbar-light bg-transparent">
+                        <div class="container-fluid">
+                          <div class="collapse navbar-collapse" id="navbarCategorias">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                <a class="nav-link active textList" href="">Cocina</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link textList" href="">Oficina</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link textList" href="">Jardin</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link textList" href="">Cochera</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link textList" href="">Dormitorios</a>
+                              </li>
+                          </div>
+                        </div>
+                      </nav>
+                </div>
+                <div class="col-4 text-center px-2">
+                    <a class="navbar-brand titleFooter" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNosotros" aria-controls="navbarNosotros" aria-expanded="false" aria-label="Toggle navigation">
+                        Sobre Nosotros
+                      </a>
+                    <nav class="navbar navbar-light bg-transparent">
+                        <div class="container-fluid">
+                          <div class="collapse navbar-collapse" id="navbarNosotros">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                <a class="nav-link active textList" href="">Nuestra Historia</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link textList" href="">Mision, Visión Valores</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link textList" href="">Carrera</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link textList" href="">Políticas de Privacidad</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link textList" href="">Términos del Servicio</a>
+                              </li>
+                          </div>
+                        </div>
+                      </nav>
+                </div>
+                <div class="col-4 text-center px-2">
+                    <a class="navbar-brand titleFooter " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSoporte" aria-controls="navbarSoporte" aria-expanded="false" aria-label="Toggle navigation">
+                        Soporte
+                      </a>
+                    <nav class="navbar navbar-light bg-transparent">
+                        <div class="container-fluid">
+                          <div class="collapse navbar-collapse" id="navbarSoporte">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                <a class="nav-link active textList" href="">Preguntas Frecuentes</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link textList" href="">Ayuda en Línea</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link textList" href="">Confianza y seguridad</a>
+                              </li>
+                          </div>
+                        </div>
+                      </nav>
+                </div>
+            </div>
+            <div class="container pt-0">
+                <div class="row">
+                    <div class="col-12 textFinal text-center">
+                        Todos los derechos reservados. TiendaMuebles
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
